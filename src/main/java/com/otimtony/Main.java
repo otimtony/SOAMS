@@ -14,7 +14,8 @@ public class Main {
         var patients = List.of(
                 new Patient(1, "Tony", "Otim", "6412330895", "otimtonyjeff@gmail.com", "Fairfield", LocalDate.of(1993, 7, 17), 0.0),
                 new Patient(1, "Robin", "Kilama", "6412330999", "kilamaRobin@gmail.com", "Kamplala", LocalDate.of(1990, 11, 17), 0.0),
-                new Patient(1, "Brian", "Akera", "6419870895", "brianakera@gmail.com", "", LocalDate.of(1987, 1, 18), 15.0)
+                new Patient(1, "Brian", "Akera", "6419870895", "brianakera@gmail.com", "", LocalDate.of(1987, 1, 18), 15.0),
+                new Patient(1, "Elvis", "Kinyera", "6419800095", "elviskinyera@gmail.com", "", LocalDate.of(1999, 6, 4), 15.0)
         );
 
         patients.forEach(System.out::println);
